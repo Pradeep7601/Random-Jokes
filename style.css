@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Source+Sans+Pro:wght@600&family=Special+Elite&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background: #03011d;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#title{
+    color: rgb(241, 221, 243);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+}
+.navbar{
+    background-color: #41173a;
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+#field{
+    width:80vw;
+    min-height: 80vh;
+    color: white;
+    border-radius: 8px;
+    background: #745e7c8c;
+}
+#container{
+    display: grid;
+    margin:30px;
+    padding:20px 40px;
+    max-width: 70vw;
+    max-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background: #787a91e7;
+    border-radius: 10px;
+    color: white;
+}
+.container h3{
+    margin:auto 40px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+div h4{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+}
+button{
+    width: 13em;
+    height: 3em;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 25px;
+    background: #201b1d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(241, 221, 243);
+    color: #201b1d;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
